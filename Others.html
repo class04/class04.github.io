@@ -40,7 +40,7 @@
 					</a>
 				
 				<a href="Others.html" class="waves-block radius">
-					<li class="mdui-list-item">
+						<li class="mdui-list-item mdui-color-theme">
 						<i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-red">message</i>
 						<div class="mdui-list-item-content">其他资料</div>
 					</li>
@@ -49,7 +49,7 @@
 				<div class="mdui-divider"></div>
 								
 				<a href="Chinese.html" class="waves-block radius">
-					<li class="mdui-list-item mdui-color-theme">
+					<li class="mdui-list-item">
 						<i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-red">book</i>
 						<div class="mdui-list-item-content">语文资料</div>
 					</li>
@@ -110,8 +110,8 @@
 						<div class="mdui-card">
 							<div class="mdui-card-primary">
 								<div class="mdui-card-primary">
-									<div class="mdui-card-primary-title">语文资料</div>
-									<div class="mdui-card-primary-subtitle">Chinese Information</div>
+									<div class="mdui-card-primary-title">其他资料</div>
+									<div class="mdui-card-primary-subtitle">Others Information</div>
 								</div>
 
 								
@@ -120,7 +120,7 @@
 										<li class="mdui-divider-inset mdui-m-y-0"></li>
 										<li class="mdui-list-item mdui-ripple">
 										<div class="mdui-list-item-avatar">
-										语
+										其
 										</div>
 										<div class="mdui-list-item-content">
 										<div class="mdui-list-item-title mdui-list-item-one-line">文件名</div>
@@ -147,36 +147,11 @@
 						</div>
 					</div>
 
+
         <div style="height: 68px"></div>
         <footer class="mdui-typo" style="left: 0px">
             <p>Copyright © 2022 - 2023 <a style="font-weight: 600" href="index.html">罗睿轩</a></p>
         </footer>
     
 
-    <style>
-        .swal2-container {
-            z-index: 9216;
-        }
-    </style>
-
-    <script>
-        $(function () {
-            const JavaScriptClickDocument = document.createElement("script");
-            JavaScriptClickDocument.src = "./Click.js";
-            document.body.appendChild(JavaScriptClickDocument);
-
-            JavaScriptClickDocument.onload = function () {
-                new mdui.Drawer("#MainDrawer").open();
-
-                if (window.location.search.split("Type").length > 1) {
-                    SetAllStyleNone(window.location.search.split("Type")[1].split("=")[1]);
-                }
-            };
-
-            JavaScriptClickDocument.onerror = function () {
-                window.location.reload();
-            };
-        });
-    </script>
-
-<script src="./Click.js"></script></body></html>
+</body></html>
